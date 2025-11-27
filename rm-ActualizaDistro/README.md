@@ -1,4 +1,4 @@
-# 🔄 rmActualizaDistro.sh
+# 🔄 rm-ActualizaDistro.sh
 
 Script **minimalista e interactivo** para realizar **mantenimiento y actualizaciones del sistema** en **Debian 12**.  
 Permite actualizar repositorios, limpiar paquetes innecesarios y reiniciar el servidor si es necesario.
@@ -20,8 +20,8 @@ Permite actualizar repositorios, limpiar paquetes innecesarios y reiniciar el se
 Para descargar y ejecutar el script directamente:
 
 ```bash
-rmCMD=rmActualizaDistro.sh && \
-bash -c "$(curl -fsSL https://github.com/ricardomonla/RM-rmCMDs/raw/refs/heads/main/rmActualizaDistro/${rmCMD})"
+rmCMD=rm-ActualizaDistro.sh && \
+bash -c "$(curl -fsSL https://github.com/ricardomonla/RM-rmCMDs/raw/refs/heads/main/rm-ActualizaDistro/${rmCMD})"
 ````
 
 ---
@@ -58,5 +58,5 @@ bash -c "$(curl -fsSL https://github.com/ricardomonla/RM-rmCMDs/raw/refs/heads/m
 
 ## ✅ Estado
 
-Versión actual: **v250924-1631**
+Versión actual: **v251127-0921**
 Estable y funcional para entornos de administración básica de servidores Debian 12.

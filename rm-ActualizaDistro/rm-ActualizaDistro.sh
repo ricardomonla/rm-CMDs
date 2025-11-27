@@ -1,21 +1,22 @@
 # Lic. Ricardo MONLA (https://github.com/ricardomonla)
 #
-# rmActualizaDistro: v250924-1631
+# rm-ActualizaDistro: v251127-0921
 #
-# rmCMD=rmActualizaDistro.sh && bash -c "$(curl -fsSL https://github.com/ricardomonla/RM-rmCMDs/raw/refs/heads/main/rmActualizaDistro/${rmCMD})"
+# rmCMD=rm-ActualizaDistro.sh && bash -c "$(curl -fsSL https://github.com/ricardomonla/RM-rmCMDs/raw/refs/heads/main/rm-ActualizaDistro/${rmCMD})"
 
-rmCMD="rmActualizaDistro.sh"
+rmCMD="rm-ActualizaDistro.sh"
 
 cat << 'SHELL' > "${rmCMD}"
 #!/usr/bin/env bash
 # ==============================================================
 # Script de actualización y mantenimiento en Debian 12
 # Autor: Lic. Ricardo MONLA (https://github.com/ricardomonla)
+# Versión: v251127-0921
 # ==============================================================
 
 # --- Variables de Identificación ---
 SCRIPT_NAME=$(basename "$0")
-SCRIPT_VERSION="v250924-1631"
+SCRIPT_VERSION="v251127-0921"
 
 # --- Colores ---
 RED="\e[31m"

@@ -2,22 +2,23 @@
 
 # Lic. Ricardo MONLA (https://github.com/ricardomonla)
 #
-# rmCambiaNombreDeHost: v250924-1647
+# rm-CambiaNombreDeHost: v251127-0921
 #
-# rmCMD=rmCambiaNombreDeHost.sh && bash -c "$(curl -fsSL https://github.com/ricardomonla/RM-rmCMDs/raw/refs/heads/main/rmCambiaNombreDeHost/${rmCMD})"
+# rmCMD=rm-CambiaNombreDeHost.sh && bash -c "$(curl -fsSL https://github.com/ricardomonla/RM-rmCMDs/raw/refs/heads/main/rm-CambiaNombreDeHost/${rmCMD})"
 
-rmCMD="rmCambiaNombreDeHost.sh"
+rmCMD="rm-CambiaNombreDeHost.sh"
 
 cat << 'SHELL' > "${rmCMD}"
 #!/usr/bin/env bash
 # ==============================================================
 # Script de Cambio de Hostname en Debian 12
 # Autor: Lic. Ricardo MONLA (https://github.com/ricardomonla)
+# Versión: v251127-0921
 # ==============================================================
 
 # --- Variables de Identificación ---
 SCRIPT_NAME=$(basename "$0")
-SCRIPT_VERSION="v250924-1647"
+SCRIPT_VERSION="v251127-0921"
 
 # --- Colores ---
 RED="\e[31m"

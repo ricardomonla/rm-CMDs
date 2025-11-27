@@ -2,23 +2,23 @@
 
 # LIc. Ricardo MONLA (https://github.com/ricardomonla)
 #
-# rmConfiguraRedEnDebian: v250924-2000
+# rm-ConfiguraRedEnDebian: v251127-0921
 #
-# rmCMD=rmConfiguraRedEnDebian.sh && bash -c "$(curl -fsSL https://github.com/ricardomonla/RM-rmCMDs/raw/refs/heads/main/rmConfiguraRedEnDebian/${rmCMD})"
+# rmCMD=rm-ConfiguraRedEnDebian.sh && bash -c "$(curl -fsSL https://github.com/ricardomonla/RM-rmCMDs/raw/refs/heads/main/rm-ConfiguraRedEnDebian/${rmCMD})"
 
-rmCMD="rmConfiguraRedEnDebian.sh"
+rmCMD="rm-ConfiguraRedEnDebian.sh"
 
 cat << 'SHELL' > "${rmCMD}"
 #!/usr/bin/env bash
 # ==============================================================
 # Script de Configuración minimalista de red en Debian 12
 # Autor: Lic. Ricardo MONLA (https://github.com/ricardomonla)
-# Versión: v250924-2300
+# Versión: v251127-0921
 # ==============================================================
 
 # --- Variables de Identificación ---
 SCRIPT_NAME=$(basename "$0")
-SCRIPT_VERSION="v250924-2000"
+SCRIPT_VERSION="v251127-0921"
 
 # --- Colores ---
 RED="\e[31m"

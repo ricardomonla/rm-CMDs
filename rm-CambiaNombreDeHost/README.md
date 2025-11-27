@@ -1,4 +1,4 @@
-# 🖥️ rmCambiaNombreDeHost.sh
+# 🖥️ rm-CambiaNombreDeHost.sh
 
 Script **minimalista e interactivo** para cambiar el **hostname** en **Debian 12** de forma segura, usando `hostnamectl`.  
 Permite modificar el nombre del host, mostrar los cambios antes de aplicarlos y actualizar automáticamente los archivos del sistema.
@@ -23,8 +23,8 @@ Permite modificar el nombre del host, mostrar los cambios antes de aplicarlos y 
 Para descargar y ejecutar el script directamente:
 
 ```bash
-rmCMD=rmCambiaNombreDeHost.sh && \
-bash -c "$(curl -fsSL https://github.com/ricardomonla/RM-rmCMDs/raw/refs/heads/main/rmCambiaNombreDeHost/${rmCMD})"
+rmCMD=rm-CambiaNombreDeHost.sh && \
+bash -c "$(curl -fsSL https://github.com/ricardomonla/RM-rmCMDs/raw/refs/heads/main/rm-CambiaNombreDeHost/${rmCMD})"
 ````
 
 ---
@@ -67,7 +67,7 @@ bash -c "$(curl -fsSL https://github.com/ricardomonla/RM-rmCMDs/raw/refs/heads/m
 
 ## ✅ Estado
 
-Versión actual: **v250924-1647**
+Versión actual: **v251127-0921**
 Estable y funcional para entornos de administración básica de servidores Debian 12.
 
 ---
