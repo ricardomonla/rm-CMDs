@@ -2,7 +2,7 @@
 
 # Lic. Ricardo MONLA (https://github.com/ricardomonla)
 #
-# rm-CambiaNombreDeHost: v251222-1830
+# rm-CambiaNombreDeHost: v251222-1836
 #
 # rmCMD=rm-CambiaNombreDeHost.sh && bash -c "$(curl -fsSL https://github.com/ricardomonla/RM-rmCMDs/raw/refs/heads/main/rm-CambiaNombreDeHost/${rmCMD})"
 
@@ -49,7 +49,7 @@ banner() {
 
 sanitizar_input() {
   # Convierte a minúsculas, cambia _ por - y elimina caracteres no permitidos
-  echo "$1" | tr '[:upper:]' '[:lower:]' | tr '_' '-' | sed 's/[^a-z0-9-]//g'
+  echo "$1" | tr '_' '-' | sed 's/[^a-zA-Z0-9-]//g'
 }
 
 aplicar_cambios() {
